@@ -691,7 +691,7 @@ body::after {
   background: var(--sf);
   border: 1px solid var(--brd);
   border-radius: var(--r);
-  padding: 26px;
+  padding: 26px 20px;
   transition: all 0.4s var(--ease);
   position: relative;
   overflow: hidden;
@@ -790,7 +790,7 @@ body::after {
   border-color: rgba(0, 229, 160, 0.22);
 }
 .pc-hd {
-  padding: 26px 26px 0;
+  padding: 26px 20px 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -831,7 +831,7 @@ body::after {
   border-color: var(--a);
 }
 .pc-body {
-  padding: 16px 26px 26px;
+  padding: 16px 20px 26px;
 }
 .pc-title {
   font-family: var(--fd);
@@ -839,6 +839,7 @@ body::after {
   font-weight: 800;
   letter-spacing: -0.02em;
   margin-bottom: 7px;
+  line-height: 28px;
 }
 .pc-tag {
   font-size: 0.78rem;
